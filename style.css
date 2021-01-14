@@ -154,8 +154,7 @@ h1 {
 }
 
 .repo:active {
-    transform: scale(0.98);
-    box-shadow: none;
+    transform: scale(0.95);
 }
 
 footer {
