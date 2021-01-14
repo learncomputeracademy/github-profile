@@ -144,13 +144,18 @@ h1 {
     text-decoration: none;
     color: #fff;
     background: #5767f9;
-    box-shadow: rgba(76, 93, 242, 0.4) 0 0 20px;
+    box-shadow: rgba(76, 93, 242, 0.4) 1px 2px 3px;
     font-size: 0.7rem;
     padding: 0.25rem 0.5rem;
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
     display: inline-block;
     border-radius: 20px;
+}
+
+.repo:active {
+    transform: scale(0.98);
+    box-shadow: none;
 }
 
 footer {
