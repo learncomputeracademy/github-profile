@@ -151,8 +151,11 @@ h1 {
     margin-bottom: 0.5rem;
     display: inline-block;
     border-radius: 20px;
+    transition: background-color .3s linear;
 }
-
+.repo:hover{
+    background-color: #3f51f5;
+}
 .repo:active {
     transform: scale(0.95);
 }
